@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26684" started-at="2019-04-17T12:16:07Z" finished-at="2019-04-17T12:16:34Z">
+    <groups>
+    </groups>
+    <test name="Becow Project" duration-ms="26684" started-at="2019-04-17T12:16:07Z" finished-at="2019-04-17T12:16:34Z">
+      <class name="BecowTestcases.LoginPageScript">
+        <test-method status="PASS" signature="BeforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="BeforeClass" is-config="true" duration-ms="21343" started-at="2019-04-17T19:16:07Z" finished-at="2019-04-17T19:16:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.45]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.beecow.com/market]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="TC_01_LoginEmptyEmailAndPassWord()[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="TC_01_LoginEmptyEmailAndPassWord" duration-ms="1898" started-at="2019-04-17T19:16:29Z" finished-at="2019-04-17T19:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginEmptyEmailAndPassWord -->
+        <test-method status="PASS" signature="TC_02_LoginWrongSDTFormat()[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="TC_02_LoginWrongSDTFormat" duration-ms="1627" started-at="2019-04-17T19:16:31Z" finished-at="2019-04-17T19:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_LoginWrongSDTFormat -->
+        <test-method status="PASS" signature="TC_03_LoginWrongEMAILFormat()[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="TC_03_LoginWrongEMAILFormat" duration-ms="1591" started-at="2019-04-17T19:16:32Z" finished-at="2019-04-17T19:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_LoginWrongEMAILFormat -->
+        <test-method status="PASS" signature="TC_04_clear()[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="TC_04_clear" duration-ms="195" started-at="2019-04-17T19:16:34Z" finished-at="2019-04-17T19:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_clear -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="AfterClass" is-config="true" duration-ms="1" started-at="2019-04-17T19:16:34Z" finished-at="2019-04-17T19:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- BecowTestcases.LoginPageScript -->
+    </test> <!-- Becow Project -->
+  </suite> <!-- Suite -->
+</testng-results>

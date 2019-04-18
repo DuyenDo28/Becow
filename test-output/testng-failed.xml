@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="2.45"/>
+  <parameter name="url" value="https://www.beecow.com/market"/>
+  <test name="Becow Project(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="2.45"/>
+    <parameter name="url" value="https://www.beecow.com/market"/>
+    <classes>
+      <class name="BecowTestcases.LoginPageScript">
+        <methods>
+          <include name="TC_04_clear"/>
+          <include name="AfterMethod"/>
+          <include name="AfterClass"/>
+          <include name="BeforeClass"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- BecowTestcases.LoginPageScript -->
+    </classes>
+  </test> <!-- Becow Project(failed) -->
+</suite> <!-- Failed suite [Suite] -->
