@@ -6,9 +6,17 @@ import java.util.Random;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
+import org.testng.ITestResult;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.ChartLocation;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.google.gson.Gson;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
@@ -16,11 +24,47 @@ import io.github.bonigarcia.wdm.FirefoxDriverManager;
 
 public class Commontestcase {
 	WebDriver driver;
+	ExtentHtmlReporter htmlReport;
+    ExtentReports extent;
+	ExtentTest test;
+
+	public void inititalReport(String report) {
+		htmlReport = new ExtentHtmlReporter(
+				System.getProperty("user.dir").concat("/test-output/ExtendReport/" + report));
+		extent = new ExtentReports();
+		extent.attachReporter(htmlReport);
+		htmlReport.config().setReportName("Regression Testing");
+		htmlReport.config().setTheme(Theme.STANDARD);
+		htmlReport.config().setTestViewChartLocation(ChartLocation.TOP);
+	}
+
+	public void logTestCase(String name) {
+		test = extent.createTest(name);
+	}
+
+	public void getResult(ITestResult result) {
+		if (result.getStatus() == ITestResult.FAILURE) {
+			test.log(Status.FAIL, "Test Case Failed is " + result.getName());
+			test.log(Status.FAIL, "Test Case Failed is " + result.getThrowable());
+		} else if (result.getStatus() == ITestResult.SUCCESS) {
+			test.log(Status.PASS, "Test Case Passed is " + result.getName());
+		} else if (result.getStatus() == ITestResult.SKIP) {
+			test.log(Status.SKIP, "Test Case Skipped is " + result.getName());
+		}
+	}
+
+	public void exportReport() {
+		extent.flush();
+		extent.close();
+	}
 
 	public WebDriver openMultiBrowser(String browser, String version, String url) {
 		if (browser.equals("chrome")) {
+			
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--disable-notifications");
 			ChromeDriverManager.getInstance().version(version).setup();
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(options);
 			driver.get(url);
 			driver.manage().window().maximize();
 
@@ -61,6 +105,14 @@ public class Commontestcase {
 		int n = rand.nextInt(9999999);
 		return String.valueOf(n);
 	}
+	
+	public int RandomProductName()
+	{
+		Random rd = new Random();
+		int em= rd.nextInt(1000000);
+		return em;
+	}
+	
 
 	public void verifyEqual(String actual, String expected) {
 		Assert.assertEquals(actual, expected);

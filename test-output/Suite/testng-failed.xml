@@ -2,22 +2,22 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="tests">
   <parameter name="browser" value="chrome"/>
-  <parameter name="version" value="2.45"/>
+  <parameter name="version" value="74.0.3729.6"/>
   <parameter name="url" value="https://www.beecow.com/market"/>
   <test name="Becow Project(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
-    <parameter name="version" value="2.45"/>
+    <parameter name="version" value="74.0.3729.6"/>
     <parameter name="url" value="https://www.beecow.com/market"/>
     <classes>
-      <class name="BecowTestcases.LoginPageScript">
+      <class name="BecowTestcases.CreateProductScript">
         <methods>
-          <include name="TC_04_clear"/>
-          <include name="AfterMethod"/>
-          <include name="AfterClass"/>
           <include name="BeforeClass"/>
+          <include name="TC_08_RandomDanhMucAndInputDescriptionInputQuantityInputWidth"/>
+          <include name="TC_07_RandomDanhMucAndInputDescriptionInputQuantity"/>
           <include name="BeforeMethod"/>
+          <include name="TC_06_RandomDanhMucAndInputDescription"/>
         </methods>
-      </class> <!-- BecowTestcases.LoginPageScript -->
+      </class> <!-- BecowTestcases.CreateProductScript -->
     </classes>
   </test> <!-- Becow Project(failed) -->
 </suite> <!-- Failed suite [Suite] -->

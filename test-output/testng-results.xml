@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="3" total="9" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="26684" started-at="2019-04-17T12:16:07Z" finished-at="2019-04-17T12:16:34Z">
+  <suite name="Suite" duration-ms="145981" started-at="2019-05-04T08:52:36Z" finished-at="2019-05-04T08:55:02Z">
     <groups>
     </groups>
-    <test name="Becow Project" duration-ms="26684" started-at="2019-04-17T12:16:07Z" finished-at="2019-04-17T12:16:34Z">
-      <class name="BecowTestcases.LoginPageScript">
-        <test-method status="PASS" signature="BeforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="BeforeClass" is-config="true" duration-ms="21343" started-at="2019-04-17T19:16:07Z" finished-at="2019-04-17T19:16:29Z">
+    <test name="Becow Project" duration-ms="145981" started-at="2019-05-04T08:52:36Z" finished-at="2019-05-04T08:55:02Z">
+      <class name="BecowTestcases.CreateProductScript">
+        <test-method status="PASS" signature="BeforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeClass" is-config="true" duration-ms="25825" started-at="2019-05-04T15:52:36Z" finished-at="2019-05-04T15:53:02Z">
           <params>
             <param index="0">
               <value>
@@ -16,7 +16,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[2.45]]>
+                <![CDATA[74.0.3729.6]]>
               </value>
             </param>
             <param index="2">
@@ -28,27 +28,247 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="TC_01_LoginEmptyEmailAndPassWord()[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="TC_01_LoginEmptyEmailAndPassWord" duration-ms="1898" started-at="2019-04-17T19:16:29Z" finished-at="2019-04-17T19:16:31Z">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1283" started-at="2019-05-04T15:53:02Z" finished-at="2019-05-04T15:53:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_LoginEmptyEmailAndPassWord -->
-        <test-method status="PASS" signature="TC_02_LoginWrongSDTFormat()[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="TC_02_LoginWrongSDTFormat" duration-ms="1627" started-at="2019-04-17T19:16:31Z" finished-at="2019-04-17T19:16:32Z">
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_01_URL_UploadProduct()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_01_URL_UploadProduct" duration-ms="2028" started-at="2019-05-04T15:53:03Z" finished-at="2019-05-04T15:53:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_02_LoginWrongSDTFormat -->
-        <test-method status="PASS" signature="TC_03_LoginWrongEMAILFormat()[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="TC_03_LoginWrongEMAILFormat" duration-ms="1591" started-at="2019-04-17T19:16:32Z" finished-at="2019-04-17T19:16:34Z">
+        </test-method> <!-- TC_01_URL_UploadProduct -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1191" started-at="2019-05-04T15:53:05Z" finished-at="2019-05-04T15:53:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_03_LoginWrongEMAILFormat -->
-        <test-method status="PASS" signature="TC_04_clear()[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="TC_04_clear" duration-ms="195" started-at="2019-04-17T19:16:34Z" finished-at="2019-04-17T19:16:34Z">
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_02_CreateProductWithoutInputRequireFields()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_02_CreateProductWithoutInputRequireFields" duration-ms="735" started-at="2019-05-04T15:53:07Z" finished-at="2019-05-04T15:53:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_04_clear -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:BecowTestcases.LoginPageScript@62ee68d8]" name="AfterClass" is-config="true" duration-ms="1" started-at="2019-04-17T19:16:34Z" finished-at="2019-04-17T19:16:34Z">
+        </test-method> <!-- TC_02_CreateProductWithoutInputRequireFields -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1184" started-at="2019-05-04T15:53:07Z" finished-at="2019-05-04T15:53:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterClass -->
-      </class> <!-- BecowTestcases.LoginPageScript -->
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_03_JustUploadImage()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_03_JustUploadImage" duration-ms="667" started-at="2019-05-04T15:53:09Z" finished-at="2019-05-04T15:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_JustUploadImage -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1161" started-at="2019-05-04T15:53:09Z" finished-at="2019-05-04T15:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_04_JustUploadImageInputRandomProductName()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_04_JustUploadImageInputRandomProductName" duration-ms="858" started-at="2019-05-04T15:53:10Z" finished-at="2019-05-04T15:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_JustUploadImageInputRandomProductName -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1205" started-at="2019-05-04T15:53:11Z" finished-at="2019-05-04T15:53:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_05_RandomSelectDanhMuc()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_05_RandomSelectDanhMuc" duration-ms="9111" started-at="2019-05-04T15:53:12Z" finished-at="2019-05-04T15:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_RandomSelectDanhMuc -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1249" started-at="2019-05-04T15:53:22Z" finished-at="2019-05-04T15:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="FAIL" signature="TC_06_RandomDanhMucAndInputDescription()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_06_RandomDanhMucAndInputDescription" duration-ms="10695" started-at="2019-05-04T15:53:23Z" finished-at="2019-05-04T15:53:34Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <li>...</li> is not clickable at point (916, 449). Other element would receive the click: <button aria-expanded="true" aria-haspopup="true" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown" type="button">...</button>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3509dfeb83b7edf55f60a5550af038bb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li>...</li> is not clickable at point (916, 449). Other element would receive the click: <button aria-expanded="true" aria-haspopup="true" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown" type="button">...</button>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3509dfeb83b7edf55f60a5550af038bb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at BecowActions.CreateProductPage.clickRandomCombobox(CreateProductPage.java:105)
+	at BecowActions.CreateProductPage.SelectDanhMuc2(CreateProductPage.java:137)
+	at BecowTestcases.CreateProductScript.TC_06_RandomDanhMucAndInputDescription(CreateProductScript.java:153)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_RandomDanhMucAndInputDescription -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1170" started-at="2019-05-04T15:53:34Z" finished-at="2019-05-04T15:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="FAIL" signature="TC_07_RandomDanhMucAndInputDescriptionInputQuantity()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_07_RandomDanhMucAndInputDescriptionInputQuantity" duration-ms="4377" started-at="2019-05-04T15:53:35Z" finished-at="2019-05-04T15:53:39Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <li>...</li> is not clickable at point (612, 449). Other element would receive the click: <button aria-expanded="true" aria-haspopup="true" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown" type="button">...</button>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3509dfeb83b7edf55f60a5550af038bb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li>...</li> is not clickable at point (612, 449). Other element would receive the click: <button aria-expanded="true" aria-haspopup="true" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown" type="button">...</button>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3509dfeb83b7edf55f60a5550af038bb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at BecowActions.CreateProductPage.clickRandomCombobox(CreateProductPage.java:105)
+	at BecowActions.CreateProductPage.SelectDanhMuc1(CreateProductPage.java:115)
+	at BecowTestcases.CreateProductScript.TC_07_RandomDanhMucAndInputDescriptionInputQuantity(CreateProductScript.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_RandomDanhMucAndInputDescriptionInputQuantity -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1166" started-at="2019-05-04T15:53:39Z" finished-at="2019-05-04T15:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="FAIL" signature="TC_08_RandomDanhMucAndInputDescriptionInputQuantityInputWidth()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_08_RandomDanhMucAndInputDescriptionInputQuantityInputWidth" duration-ms="54405" started-at="2019-05-04T15:53:40Z" finished-at="2019-05-04T15:54:35Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'category-left')]//li (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3509dfeb83b7edf55f60a5550af038bb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'category-left')]//li (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3509dfeb83b7edf55f60a5550af038bb
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at CommonPage.CommonFunction.waitVisible(CommonFunction.java:355)
+	at BecowActions.CreateProductPage.SelectDanhMuc1(CreateProductPage.java:114)
+	at BecowTestcases.CreateProductScript.TC_08_RandomDanhMucAndInputDescriptionInputQuantityInputWidth(CreateProductScript.java:209)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_RandomDanhMucAndInputDescriptionInputQuantityInputWidth -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1186" started-at="2019-05-04T15:54:35Z" finished-at="2019-05-04T15:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_09_CreateProductSuccessfully()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_09_CreateProductSuccessfully" duration-ms="26457" started-at="2019-05-04T15:54:36Z" finished-at="2019-05-04T15:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09_CreateProductSuccessfully -->
+      </class> <!-- BecowTestcases.CreateProductScript -->
     </test> <!-- Becow Project -->
   </suite> <!-- Suite -->
 </testng-results>

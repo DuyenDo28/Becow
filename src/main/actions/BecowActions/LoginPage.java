@@ -1,5 +1,6 @@
 package BecowActions;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -15,8 +16,6 @@ public class LoginPage extends CommonFunction {
 	public void inputUserName(String userName)
 	{
 		waitVisible(LoginUI.USERNAME_TXT);
-		clearText(LoginUI.USERNAME_TXT);
-		waitVisible(LoginUI.USERNAME_TXT);
 		input(LoginUI.USERNAME_TXT,userName );
 	}
 	public void clearUserName()
@@ -29,15 +28,21 @@ public class LoginPage extends CommonFunction {
 		waitVisible(LoginUI.PASSWORD_TXT);
 		input(LoginUI.PASSWORD_TXT,passWord );
 	}
+	public void clearPassword()
+	{
+		waitVisible(LoginUI.PASSWORD_TXT);
+		clearText(LoginUI.PASSWORD_TXT);
+	}
 	public String getTextUserName()
 	{
 		waitVisible(LoginUI.USERNAME_TXT);
 		return getText(LoginUI.USERNAME_TXT);
 	}
-	public void clickDangNhap()
+	public DashboardPage clickDangNhap()
 	{
 		waitVisible(LoginUI.DANGNHAP_BTN);
 		click(LoginUI.DANGNHAP_BTN);
+		return PageFactory.initElements(driver, DashboardPage.class);
 	}
 	public String WarningDangNhapEmailSDT_LBL()
 	{
@@ -61,6 +66,35 @@ public class LoginPage extends CommonFunction {
 		return PageFactory.initElements(driver, HomePage.class);	
 		
 	}
+	public String getTextInvalidPassWordErr()
+	{
+		waitVisible(LoginUI.PASSWORD_VALID_ERROR_LBL);
+		return getText(LoginUI.PASSWORD_VALID_ERROR_LBL);
+		
+		
+	}
+	public String getTextInvalidEmailOrSdtOrPassword()
+	{
+		
+
+		waitVisible(LoginUI.EMAIL_SDT_PASSWORD_ERROR_LBL);
+		return getText(LoginUI.EMAIL_SDT_PASSWORD_ERROR_LBL);
+		//JavascriptExecutor js = (JavascriptExecutor) driver; 
+		//return js.executeScript("return $ ('$('input[beetranslate="beecow.login.error.loginError"]').children("span")').text()").toString();			
+	}
+	public void clearUserNameByJs()
+	{
+		executeScriptBrowser("$('input#usr').val('')");
+		
+	}
+	public void clearPasswordByJs()
+	{
+		executeScriptBrowser("$('input#pwd').val('')");
+		//$('#sign-in input#pwd')
+		//$('#sign-in input#pwd').val('')
+		
+	}
+
 
 
 

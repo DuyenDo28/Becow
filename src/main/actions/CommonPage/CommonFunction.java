@@ -6,6 +6,7 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.util.List;
+import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -25,13 +26,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.google.common.base.Function;
 
-public class CommonFunction extends BasePage{
+public class CommonFunction extends BasePage {
 
 	public CommonFunction(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-	private int timeouts = 20;
+
+	private int timeouts = 50;
 
 	public void openUrl(String url) {
 		driver.get(url);
@@ -64,10 +66,18 @@ public class CommonFunction extends BasePage{
 		return element.getText();
 	}
 
+	public String getTextByJSHTML5(String locator) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		WebElement userName = driver.findElement(By.xpath(locator));
+		// executeClickByJS("//input[@id='name']");
+		return jsExecutor.executeScript("return arguments[0].validationMessage;", userName).toString();
+
+	}
+
 	public String getTextByJS(String locator) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
-		WebElement userName = driver.findElement(By.xpath("//input[@id='name']"));
-		executeClickByJS("//input[@id='name']");
+		WebElement userName = driver.findElement(By.xpath(locator));
+		// executeClickByJS("//input[@id='name']");
 		return jsExecutor.executeScript("return arguments[0].validationMessage;", userName).toString();
 
 	}
@@ -175,7 +185,7 @@ public class CommonFunction extends BasePage{
 	public String getTextAlert1() {
 
 		Alert alert = driver.switchTo().alert();
-		//alert.accept();
+		// alert.accept();
 		return alert.getText();
 	}
 
@@ -274,8 +284,6 @@ public class CommonFunction extends BasePage{
 		WebElement element = driver.findElement(By.xpath(locator));
 		element.sendKeys(key);
 	}
-
-	
 
 	public void uploadBySendKeys(String locator, String PathImage) {
 		WebElement btnBrowse = driver.findElement(By.xpath(locator));
@@ -378,6 +386,7 @@ public class CommonFunction extends BasePage{
 		WebDriverWait wait = new WebDriverWait(driver, timeouts);
 		wait.until(ExpectedConditions.alertIsPresent());
 	}
+
 	public void waitVisibleDynamicElement(String locator, String... dynamic) {
 		String dynamicLocator = String.format(locator, (Object[]) dynamic);
 		WebDriverWait wait = new WebDriverWait(driver, timeouts);
@@ -389,7 +398,8 @@ public class CommonFunction extends BasePage{
 		WebElement element = driver.findElement(By.xpath(dynamicLocator));
 		element.sendKeys(value);
 	}
- // String ... dymana la khai bao mang
+
+	// String ... dymana la khai bao mang
 	public void clickDynamicElement(String locator, String... dynamic) {
 		String dynamicLocator = String.format(locator, (Object[]) dynamic);
 		WebElement element = driver.findElement(By.xpath(dynamicLocator));
@@ -403,5 +413,22 @@ public class CommonFunction extends BasePage{
 
 	}
 
+	public void clickRandomCombobox(String locator) {
+		List<WebElement> selects = driver.findElements(By.xpath(locator));
+		Random rand = new Random();
+		int list = rand.nextInt(selects.size());
+		selects.get(list).click();
+	}
+
+	public boolean checkElementDisplay(String locator) {
+		Boolean isPresent = driver.findElements(By.xpath(locator)).size() > 0;
+		return isPresent;
+	}
+	public void inputKeyByJS(String locator)
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver; 
+		js.executeScript(locator);
+
+	}
 
 }
