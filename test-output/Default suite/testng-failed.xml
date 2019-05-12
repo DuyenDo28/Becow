@@ -5,15 +5,8 @@
     <classes>
       <class name="BecowTestcases.CreateProductScript">
         <methods>
-          <include name="TC_02_CreateProductWithoutInputRequireFields"/>
-          <include name="TC_05_RandomSelectDanhMuc"/>
-          <include name="TC_04_JustUploadImageInputRandomProductName"/>
-          <include name="TC_08_RandomDanhMucAndInputDescriptionInputQuantityInputWidth"/>
-          <include name="TC_01_URL_UploadProduct"/>
-          <include name="TC_07_RandomDanhMucAndInputDescriptionInputQuantity"/>
-          <include name="TC_06_RandomDanhMucAndInputDescription"/>
+          <include name="TC_11_AllFieldsLikeUserInputted"/>
           <include name="TC_03_JustUploadImage"/>
-          <include name="TC_09_CreateProductSuccessfully"/>
         </methods>
       </class> <!-- BecowTestcases.CreateProductScript -->
     </classes>

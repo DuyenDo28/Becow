@@ -82,6 +82,11 @@ public class CommonFunction extends BasePage {
 
 	}
 
+	public String getTextByJquery(String locator) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		return jsExecutor.executeScript(locator).toString();
+	}
+
 	public void navigate(String url) {
 		driver.navigate().to(url);
 	}
@@ -424,9 +429,9 @@ public class CommonFunction extends BasePage {
 		Boolean isPresent = driver.findElements(By.xpath(locator)).size() > 0;
 		return isPresent;
 	}
-	public void inputKeyByJS(String locator)
-	{
-		JavascriptExecutor js = (JavascriptExecutor) driver; 
+
+	public void inputKeyByJS(String locator) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript(locator);
 
 	}

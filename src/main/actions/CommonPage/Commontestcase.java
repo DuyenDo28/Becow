@@ -19,6 +19,7 @@ import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.google.gson.Gson;
 
+import ObjectPageJson.JsonData;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
 
@@ -77,10 +78,11 @@ public class Commontestcase {
 
 		return driver;
 	}
-//	public JsonData getDataJson(String JsonFile) {
-//    	String json = readFile(JsonFile);
-//		return new Gson().fromJson(json, JsonData.class);
-//	}
+
+	public JsonData getDataJson(String JsonFile) {
+    	String json = readFile(JsonFile);
+		return new Gson().fromJson(json, JsonData.class);
+	}
 
 	public String readFile(String filename) {
 		String result = "";

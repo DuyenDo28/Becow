@@ -1,0 +1,48 @@
+ {"NewProductMsg": {
+        "HayChonHinhAnhChoSanPham":"Hãy chọn hình ảnh cho sản phẩm",
+        "HayChonDanhMuc":"Hãy chọn danh mục.",
+        "HayMoTaSanPham":"Hãy mô tả sản phẩm.",
+        "HayNhapSoLuong":"Nhập số lượng.",        
+        "HayDienGia":"Hãy điền giá.",
+        "HayDienCanNangSanPham":"Hãy điền cân nặng sản phẩm.",
+        "BatBuoc":"Bắt buộc",
+        "HayDienTenSanPham":"Hãy điền tên sản phẩm",       
+        "CanNangTu50Den1000":"Cân nặng từ 50g đến 10000g.",
+        "ChieuRongTu1Den50":"Từ 1cm tới 50cm",
+        "ChieuDaiTu1Den30":"Từ 1cm tới 30cm",
+        "ChieuCaoTu1Den50":"Từ 1cm tới 50cm",
+        "chooseImage":"chooseImage", 
+        "errorcategory":"error.category",
+        "errordescription":"error.description",
+        "erroritemQty":"error.itemQty",
+        "errorprice":"error.price",
+        "shippingrequire":"shipping.require",
+        "widthrequire":"width.require",
+        "lengthrequire":"length.require",
+        "heightrequire":"height.require",
+        "productName":"productName",
+        "lengthrange":"length.range",
+        "widthrange":"width.range",
+        "heightrange":"height.range"
+          
+  },
+  "ExpectedNewProductMsg": {
+   "HayChonHinhAnhChoSanPham":"Hãy chọn hình ảnh cho sản phẩm",
+        "HayChonDanhMuc":"Hãy chọn danh mục.",
+        "HayMoTaSanPham":"Hãy mô tả sản phẩm.",
+        "HayNhapSoLuong":"Nhập số lượng.",        
+        "HayDienGia":"Hãy điền giá.",
+        "HayDienCanNangSanPham":"Hãy điền cân nặng sản phẩm.",
+        "BatBuoc":"Bắt buộc",
+        "HayDienTenSanPham":"Hãy điền tên sản phẩm",        
+        "CanNangTu50Den1000":"Cân nặng từ 50g đến 10000g.",
+        "ChieuRongTu1Den50":"Từ 1cm tới 50cm",
+        "ChieuCaoTu1Den50":"Từ 1cm tới 50cm",
+        "ChieuDaiTu1Den30":"Từ 1cm tới 30cm",
+        "BanDaDangThanhCongSanPhamNay":"Bạn đã đăng thành công sản phẩm này",
+        "HetHang":"Hết hàng"
+  }
+  
+  }
+  
+  

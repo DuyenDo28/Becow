@@ -11,11 +11,10 @@
     <classes>
       <class name="BecowTestcases.CreateProductScript">
         <methods>
+          <include name="AfterMethod"/>
           <include name="BeforeClass"/>
-          <include name="TC_08_RandomDanhMucAndInputDescriptionInputQuantityInputWidth"/>
-          <include name="TC_07_RandomDanhMucAndInputDescriptionInputQuantity"/>
+          <include name="TC_31_CreateProductSuccessfullyIfInputHeight1"/>
           <include name="BeforeMethod"/>
-          <include name="TC_06_RandomDanhMucAndInputDescription"/>
         </methods>
       </class> <!-- BecowTestcases.CreateProductScript -->
     </classes>

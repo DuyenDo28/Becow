@@ -16,6 +16,7 @@
 <!-- 		<parameter name="url" value="https://www.beecow.com/market" /> -->
 <!-- 		<classes> -->
 <!--  			<class name="BecowTestcases.LoginPageScript" /> -->
+<!--  			 <class name="BecowTestcases.CreateProductScript" /> -->
 <!-- 		</classes> -->
 <!-- 	</test> -->
 </suite> 

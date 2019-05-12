@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" total="9" passed="6">
+<testng-results skipped="0" failed="0" total="24" passed="24">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="145981" started-at="2019-05-04T08:52:36Z" finished-at="2019-05-04T08:55:02Z">
+  <suite name="Suite" duration-ms="317906" started-at="2019-05-12T04:32:10Z" finished-at="2019-05-12T04:37:28Z">
     <groups>
     </groups>
-    <test name="Becow Project" duration-ms="145981" started-at="2019-05-04T08:52:36Z" finished-at="2019-05-04T08:55:02Z">
+    <test name="Becow Project" duration-ms="317906" started-at="2019-05-12T04:32:10Z" finished-at="2019-05-12T04:37:28Z">
       <class name="BecowTestcases.CreateProductScript">
-        <test-method status="PASS" signature="BeforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeClass" is-config="true" duration-ms="25825" started-at="2019-05-04T15:52:36Z" finished-at="2019-05-04T15:53:02Z">
+        <test-method status="PASS" signature="BeforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeClass" is-config="true" duration-ms="24045" started-at="2019-05-12T11:32:10Z" finished-at="2019-05-12T11:32:34Z">
           <params>
             <param index="0">
               <value>
@@ -28,246 +28,294 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1283" started-at="2019-05-04T15:53:02Z" finished-at="2019-05-04T15:53:03Z">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1148" started-at="2019-05-12T11:32:34Z" finished-at="2019-05-12T11:32:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_01_URL_UploadProduct()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_01_URL_UploadProduct" duration-ms="2028" started-at="2019-05-04T15:53:03Z" finished-at="2019-05-04T15:53:05Z">
+        <test-method status="PASS" signature="TC_09_CreateProductWithoutInputRequireFields()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_09_CreateProductWithoutInputRequireFields" duration-ms="739" started-at="2019-05-12T11:32:35Z" finished-at="2019-05-12T11:32:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_URL_UploadProduct -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1191" started-at="2019-05-04T15:53:05Z" finished-at="2019-05-04T15:53:07Z">
+        </test-method> <!-- TC_09_CreateProductWithoutInputRequireFields -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="972" started-at="2019-05-12T11:32:36Z" finished-at="2019-05-12T11:32:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_02_CreateProductWithoutInputRequireFields()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_02_CreateProductWithoutInputRequireFields" duration-ms="735" started-at="2019-05-04T15:53:07Z" finished-at="2019-05-04T15:53:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02_CreateProductWithoutInputRequireFields -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1184" started-at="2019-05-04T15:53:07Z" finished-at="2019-05-04T15:53:09Z">
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1347" started-at="2019-05-12T11:32:37Z" finished-at="2019-05-12T11:32:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_03_JustUploadImage()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_03_JustUploadImage" duration-ms="667" started-at="2019-05-04T15:53:09Z" finished-at="2019-05-04T15:53:09Z">
+        <test-method status="PASS" signature="TC_10_JustUploadImage()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_10_JustUploadImage" duration-ms="846" started-at="2019-05-12T11:32:38Z" finished-at="2019-05-12T11:32:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_03_JustUploadImage -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1161" started-at="2019-05-04T15:53:09Z" finished-at="2019-05-04T15:53:10Z">
+        </test-method> <!-- TC_10_JustUploadImage -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="924" started-at="2019-05-12T11:32:39Z" finished-at="2019-05-12T11:32:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_04_JustUploadImageInputRandomProductName()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_04_JustUploadImageInputRandomProductName" duration-ms="858" started-at="2019-05-04T15:53:10Z" finished-at="2019-05-04T15:53:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_04_JustUploadImageInputRandomProductName -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1205" started-at="2019-05-04T15:53:11Z" finished-at="2019-05-04T15:53:12Z">
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1438" started-at="2019-05-12T11:32:40Z" finished-at="2019-05-12T11:32:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_05_RandomSelectDanhMuc()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_05_RandomSelectDanhMuc" duration-ms="9111" started-at="2019-05-04T15:53:12Z" finished-at="2019-05-04T15:53:22Z">
+        <test-method status="PASS" signature="TC_11_JustUploadImageInputRandomProductName()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_11_JustUploadImageInputRandomProductName" duration-ms="1943" started-at="2019-05-12T11:32:41Z" finished-at="2019-05-12T11:32:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_05_RandomSelectDanhMuc -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1249" started-at="2019-05-04T15:53:22Z" finished-at="2019-05-04T15:53:23Z">
+        </test-method> <!-- TC_11_JustUploadImageInputRandomProductName -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="2149" started-at="2019-05-12T11:32:43Z" finished-at="2019-05-12T11:32:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_06_RandomDanhMucAndInputDescription()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_06_RandomDanhMucAndInputDescription" duration-ms="10695" started-at="2019-05-04T15:53:23Z" finished-at="2019-05-04T15:53:34Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <li>...</li> is not clickable at point (916, 449). Other element would receive the click: <button aria-expanded="true" aria-haspopup="true" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown" type="button">...</button>
-  (Session info: chrome=74.0.3729.131)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: 3509dfeb83b7edf55f60a5550af038bb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li>...</li> is not clickable at point (916, 449). Other element would receive the click: <button aria-expanded="true" aria-haspopup="true" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown" type="button">...</button>
-  (Session info: chrome=74.0.3729.131)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: 3509dfeb83b7edf55f60a5550af038bb
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at BecowActions.CreateProductPage.clickRandomCombobox(CreateProductPage.java:105)
-	at BecowActions.CreateProductPage.SelectDanhMuc2(CreateProductPage.java:137)
-	at BecowTestcases.CreateProductScript.TC_06_RandomDanhMucAndInputDescription(CreateProductScript.java:153)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_06_RandomDanhMucAndInputDescription -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1170" started-at="2019-05-04T15:53:34Z" finished-at="2019-05-04T15:53:35Z">
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1424" started-at="2019-05-12T11:32:45Z" finished-at="2019-05-12T11:32:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_07_RandomDanhMucAndInputDescriptionInputQuantity()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_07_RandomDanhMucAndInputDescriptionInputQuantity" duration-ms="4377" started-at="2019-05-04T15:53:35Z" finished-at="2019-05-04T15:53:39Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <li>...</li> is not clickable at point (612, 449). Other element would receive the click: <button aria-expanded="true" aria-haspopup="true" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown" type="button">...</button>
-  (Session info: chrome=74.0.3729.131)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: 3509dfeb83b7edf55f60a5550af038bb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li>...</li> is not clickable at point (612, 449). Other element would receive the click: <button aria-expanded="true" aria-haspopup="true" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown" type="button">...</button>
-  (Session info: chrome=74.0.3729.131)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: 3509dfeb83b7edf55f60a5550af038bb
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at BecowActions.CreateProductPage.clickRandomCombobox(CreateProductPage.java:105)
-	at BecowActions.CreateProductPage.SelectDanhMuc1(CreateProductPage.java:115)
-	at BecowTestcases.CreateProductScript.TC_07_RandomDanhMucAndInputDescriptionInputQuantity(CreateProductScript.java:177)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method status="PASS" signature="TC_12_RandomSelectDanhMuc()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_12_RandomSelectDanhMuc" duration-ms="5422" started-at="2019-05-12T11:32:47Z" finished-at="2019-05-12T11:32:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_07_RandomDanhMucAndInputDescriptionInputQuantity -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1166" started-at="2019-05-04T15:53:39Z" finished-at="2019-05-04T15:53:40Z">
+        </test-method> <!-- TC_12_RandomSelectDanhMuc -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1776" started-at="2019-05-12T11:32:52Z" finished-at="2019-05-12T11:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="2054" started-at="2019-05-12T11:32:54Z" finished-at="2019-05-12T11:32:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_08_RandomDanhMucAndInputDescriptionInputQuantityInputWidth()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_08_RandomDanhMucAndInputDescriptionInputQuantityInputWidth" duration-ms="54405" started-at="2019-05-04T15:53:40Z" finished-at="2019-05-04T15:54:35Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'category-left')]//li (tried for 50 second(s) with 500 milliseconds interval)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: 3509dfeb83b7edf55f60a5550af038bb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'category-left')]//li (tried for 50 second(s) with 500 milliseconds interval)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-4MO39718', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DUYEND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58669}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: 3509dfeb83b7edf55f60a5550af038bb
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at CommonPage.CommonFunction.waitVisible(CommonFunction.java:355)
-	at BecowActions.CreateProductPage.SelectDanhMuc1(CreateProductPage.java:114)
-	at BecowTestcases.CreateProductScript.TC_08_RandomDanhMucAndInputDescriptionInputQuantityInputWidth(CreateProductScript.java:209)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="TC_14_RandomDanhMucAndInputDescription()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_14_RandomDanhMucAndInputDescription" duration-ms="5989" started-at="2019-05-12T11:32:56Z" finished-at="2019-05-12T11:33:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_08_RandomDanhMucAndInputDescriptionInputQuantityInputWidth -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="BeforeMethod" is-config="true" duration-ms="1186" started-at="2019-05-04T15:54:35Z" finished-at="2019-05-04T15:54:36Z">
+        </test-method> <!-- TC_14_RandomDanhMucAndInputDescription -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1901" started-at="2019-05-12T11:33:02Z" finished-at="2019-05-12T11:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1614" started-at="2019-05-12T11:33:04Z" finished-at="2019-05-12T11:33:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_09_CreateProductSuccessfully()[pri:0, instance:BecowTestcases.CreateProductScript@68be2bc2]" name="TC_09_CreateProductSuccessfully" duration-ms="26457" started-at="2019-05-04T15:54:36Z" finished-at="2019-05-04T15:55:02Z">
+        <test-method status="PASS" signature="TC_15_RandomDanhMucAndInputDescriptionInputQuantity()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_15_RandomDanhMucAndInputDescriptionInputQuantity" duration-ms="5218" started-at="2019-05-12T11:33:06Z" finished-at="2019-05-12T11:33:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_09_CreateProductSuccessfully -->
+        </test-method> <!-- TC_15_RandomDanhMucAndInputDescriptionInputQuantity -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1788" started-at="2019-05-12T11:33:11Z" finished-at="2019-05-12T11:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1596" started-at="2019-05-12T11:33:13Z" finished-at="2019-05-12T11:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_16_RandomDanhMucAndInputDescriptionInputQuantityInputPrice()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_16_RandomDanhMucAndInputDescriptionInputQuantityInputPrice" duration-ms="6353" started-at="2019-05-12T11:33:14Z" finished-at="2019-05-12T11:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_16_RandomDanhMucAndInputDescriptionInputQuantityInputPrice -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1694" started-at="2019-05-12T11:33:21Z" finished-at="2019-05-12T11:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1560" started-at="2019-05-12T11:33:22Z" finished-at="2019-05-12T11:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_17_RandomDanhMucAndInputDescriptionInputQuantityInputWeight49()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_17_RandomDanhMucAndInputDescriptionInputQuantityInputWeight49" duration-ms="11741" started-at="2019-05-12T11:33:24Z" finished-at="2019-05-12T11:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_17_RandomDanhMucAndInputDescriptionInputQuantityInputWeight49 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="2095" started-at="2019-05-12T11:33:36Z" finished-at="2019-05-12T11:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1493" started-at="2019-05-12T11:33:38Z" finished-at="2019-05-12T11:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_18_RandomDanhMucAndInputDescriptionInputQuantityInputWeight10001()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_18_RandomDanhMucAndInputDescriptionInputQuantityInputWeight10001" duration-ms="16349" started-at="2019-05-12T11:33:39Z" finished-at="2019-05-12T11:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_18_RandomDanhMucAndInputDescriptionInputQuantityInputWeight10001 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1852" started-at="2019-05-12T11:33:56Z" finished-at="2019-05-12T11:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1532" started-at="2019-05-12T11:33:57Z" finished-at="2019-05-12T11:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_19_RandomDanhMucAndInputDescriptionInputQuantityInputWeight50()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_19_RandomDanhMucAndInputDescriptionInputQuantityInputWeight50" duration-ms="16446" started-at="2019-05-12T11:33:59Z" finished-at="2019-05-12T11:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_19_RandomDanhMucAndInputDescriptionInputQuantityInputWeight50 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1660" started-at="2019-05-12T11:34:15Z" finished-at="2019-05-12T11:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1553" started-at="2019-05-12T11:34:17Z" finished-at="2019-05-12T11:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_21_InputWith0()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_21_InputWith0" duration-ms="6811" started-at="2019-05-12T11:34:19Z" finished-at="2019-05-12T11:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_21_InputWith0 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1935" started-at="2019-05-12T11:34:25Z" finished-at="2019-05-12T11:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1500" started-at="2019-05-12T11:34:27Z" finished-at="2019-05-12T11:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_22_InputWith51()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_22_InputWith51" duration-ms="6826" started-at="2019-05-12T11:34:29Z" finished-at="2019-05-12T11:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_22_InputWith51 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1815" started-at="2019-05-12T11:34:36Z" finished-at="2019-05-12T11:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1956" started-at="2019-05-12T11:34:38Z" finished-at="2019-05-12T11:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_23_InputWith1()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_23_InputWith1" duration-ms="5251" started-at="2019-05-12T11:34:39Z" finished-at="2019-05-12T11:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_23_InputWith1 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1662" started-at="2019-05-12T11:34:45Z" finished-at="2019-05-12T11:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1698" started-at="2019-05-12T11:34:46Z" finished-at="2019-05-12T11:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_24_InputWith50()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_24_InputWith50" duration-ms="6423" started-at="2019-05-12T11:34:48Z" finished-at="2019-05-12T11:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_24_InputWith50 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1569" started-at="2019-05-12T11:34:54Z" finished-at="2019-05-12T11:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1387" started-at="2019-05-12T11:34:56Z" finished-at="2019-05-12T11:34:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_25_InputLength0()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_25_InputLength0" duration-ms="6634" started-at="2019-05-12T11:34:57Z" finished-at="2019-05-12T11:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_25_InputLength0 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1624" started-at="2019-05-12T11:35:04Z" finished-at="2019-05-12T11:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1440" started-at="2019-05-12T11:35:06Z" finished-at="2019-05-12T11:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_26_InputLength31()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_26_InputLength31" duration-ms="6859" started-at="2019-05-12T11:35:07Z" finished-at="2019-05-12T11:35:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_26_InputLength31 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1848" started-at="2019-05-12T11:35:14Z" finished-at="2019-05-12T11:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1610" started-at="2019-05-12T11:35:16Z" finished-at="2019-05-12T11:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_27_InputLength1()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_27_InputLength1" duration-ms="6832" started-at="2019-05-12T11:35:17Z" finished-at="2019-05-12T11:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_27_InputLength1 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1814" started-at="2019-05-12T11:35:24Z" finished-at="2019-05-12T11:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1893" started-at="2019-05-12T11:35:26Z" finished-at="2019-05-12T11:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_28_InputLength30()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_28_InputLength30" duration-ms="6860" started-at="2019-05-12T11:35:28Z" finished-at="2019-05-12T11:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_28_InputLength30 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1787" started-at="2019-05-12T11:35:35Z" finished-at="2019-05-12T11:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1521" started-at="2019-05-12T11:35:37Z" finished-at="2019-05-12T11:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_29_InputHeight0()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_29_InputHeight0" duration-ms="7216" started-at="2019-05-12T11:35:38Z" finished-at="2019-05-12T11:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_29_InputHeight0 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1411" started-at="2019-05-12T11:35:45Z" finished-at="2019-05-12T11:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1942" started-at="2019-05-12T11:35:47Z" finished-at="2019-05-12T11:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_30_InputHeight51()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_30_InputHeight51" duration-ms="7428" started-at="2019-05-12T11:35:49Z" finished-at="2019-05-12T11:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_30_InputHeight51 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="2039" started-at="2019-05-12T11:35:56Z" finished-at="2019-05-12T11:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1473" started-at="2019-05-12T11:35:58Z" finished-at="2019-05-12T11:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_31_CreateProductSuccessfullyIfInputHeight1()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_31_CreateProductSuccessfullyIfInputHeight1" duration-ms="9772" started-at="2019-05-12T11:36:00Z" finished-at="2019-05-12T11:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_31_CreateProductSuccessfullyIfInputHeight1 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1679" started-at="2019-05-12T11:36:09Z" finished-at="2019-05-12T11:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1711" started-at="2019-05-12T11:36:11Z" finished-at="2019-05-12T11:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_32_CreateProductSuccessfullyIfInputHeight50()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_32_CreateProductSuccessfullyIfInputHeight50" duration-ms="8603" started-at="2019-05-12T11:36:13Z" finished-at="2019-05-12T11:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_32_CreateProductSuccessfullyIfInputHeight50 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="1918" started-at="2019-05-12T11:36:21Z" finished-at="2019-05-12T11:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1640" started-at="2019-05-12T11:36:23Z" finished-at="2019-05-12T11:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_33_AllFieldsLikeUserInputted()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_33_AllFieldsLikeUserInputted" duration-ms="30505" started-at="2019-05-12T11:36:25Z" finished-at="2019-05-12T11:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_33_AllFieldsLikeUserInputted -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="2309" started-at="2019-05-12T11:36:56Z" finished-at="2019-05-12T11:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="BeforeMethod" is-config="true" duration-ms="1644" started-at="2019-05-12T11:36:58Z" finished-at="2019-05-12T11:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_34_UpdateQuantityIs0WillShowHetHang()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="TC_34_UpdateQuantityIs0WillShowHetHang" duration-ms="25980" started-at="2019-05-12T11:36:59Z" finished-at="2019-05-12T11:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_34_UpdateQuantityIs0WillShowHetHang -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BecowTestcases.CreateProductScript@675d3402]" name="AfterMethod" is-config="true" duration-ms="2348" started-at="2019-05-12T11:37:25Z" finished-at="2019-05-12T11:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
       </class> <!-- BecowTestcases.CreateProductScript -->
     </test> <!-- Becow Project -->
   </suite> <!-- Suite -->
